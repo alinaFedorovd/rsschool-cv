@@ -1,28 +1,31 @@
-Fedorova Alina
+# Fedorova Alina
 
-Contacts
-Location: Kazakhstan, Kokshetau
-E-mail: sapereaude.alf@gmail.com
-GitHub: alinaFedorovd
-Discord: AlinaFedorova (@alinaFedorovd)
+## Contacts
+- Location: Kazakhstan, Kokshetau
+- E-mail: sapereaude.alf@gmail.com
+- GitHub: alinaFedorovd
+- Discord: AlinaFedorova (@alinaFedorovd)
 
-About Me
-
-Skills
-HTML5
-Git, GitHub
-VS Code
-Adobe Photoshop, Illustrator, CorelDrow
-Premiere Pro,Premiere Pro
+## Skills
+- HTML5
+- Git, GitHub
+- VS Code
+- Adobe Photoshop, Illustrator, CorelDrow
+- Premiere Pro,Premiere Pro
 
 
-Code Example
+## Code Example
+```javascript
 function multiply(a, b){
   return a * b;
 }
+```
 
-About me
-my goal is to learn js, css and python to get a job. In the past, I worked as a graphic designer. Now I am changing my profession.
+## About me
+My goal is to learn js, css and python to get a job. In the past,\
+I worked as a graphic designer. Now I am changing my profession.
 
-English
-A1
+## English
+- A1
+
+[My project](https://github.com/alinaFedorovd/rsschool-cv)
