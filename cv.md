@@ -11,11 +11,11 @@
 - Git, GitHub
 - VS Code
 - Adobe Photoshop, Illustrator, CorelDrow
-- Premiere Pro,Premiere Pro
+- Premiere Pro, Premiere Pro
 
 
 ## Code Example
-```javascript
+```javascriptgit
 function multiply(a, b){
   return a * b;
 }
@@ -28,4 +28,4 @@ I worked as a graphic designer. Now I am changing my profession.
 ## English
 - A1
 
-[My project](https://github.com/alinaFedorovd/rsschool-cv)
+## [My project](https://github.com/alinaFedorovd/rsschool-cv)
