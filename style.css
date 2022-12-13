@@ -1,6 +1,8 @@
 html{
     background-color: rgb(61, 58, 63);
     color: rgb(218, 150, 63);
+    width: 960px; /*это ширина ровняет по центру */
+    margin: 0 auto; /*ровняет по центру ширины*/
     
 }
 .nav-list {
@@ -26,10 +28,18 @@ html{
   }
   .foto
   {
-    width: 27%; /* Ширина */
+    width: 27%; 
     float: left; /* Выстраиваем элементы по горизонтали */
-    margin: 0 0 0 3.5%; /* Отступ слева */
-    background: #f0f0f0; /* Цвет фона */
-    border-radius: 5px; /* Радиус скругления */
-    padding: 2%; /* Поля */
+    margin: 20px 0 0 0
+  }
+  .name {
+
+    margin-left: 50%;
+    margin-top: 15%;
+    font-size: 50px;
+    font-weight: 500%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #ffffff;
+    
   }
