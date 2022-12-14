@@ -4,7 +4,6 @@
 
 <head>
   <meta charset="utf-8">
-  <base target="_blank">
   <title>cv</title>
   <meta name="description" content="about me">
   <meta name="author" content="Al">
@@ -13,23 +12,91 @@
 </head>
 
 <body>
-  <header> 
-    <nav class="nav">
+  <header class="header">
+    <nav class="containerheader">
       <ul class="nav-list">
-        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-        <li class="nav-item"><a href="#summary" class="nav-link">обомне</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">еще что-то</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#codeexample">Code Example</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aboutme">About me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#myproject">My project</a></li>
       </ul>
     </nav>
   </header>
-  <img class="foto" src="assets/img/img.jpg" alt="foto">
-  
-  <div class="name">
-    <p> Alina <br> Fedorova
-    </p>
-  </div>
- 
+  <section class="container">
+    <div class="containerheader">
+      <img class="foto" src="assets/img/img.jpg" alt="foto">
+      <h1 class="name"> Alina <br> Fedorova
+      </h1>
+    </div>
+  </section>
+
+  <section class="container" id="contacts">
+    <div class="containerheader">
+      <h2>Contacts</h2>
+      <ul>
+        <li><a>Location: Kazakhstan, Kokshetau</a></li>
+        <li><a>E-mail: sapereaude.alf@gmail.com</a></li>
+        <li><a>GitHub: alinaFedorovd</a></li>
+        <li><a>Discord: AlinaFedorova (@alinaFedorovd)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container" id="skills">
+    <div class="fix">
+      <h2>Skills</h2>
+      <ul>
+        <li><a>HTML5 (elementary)</a></li>
+        <li><a>CSS (elementary)</a></li>
+        <li><a>Git, GitHub</a></li>
+        <li><a>VS Code</a></li>
+        <li><a>Adobe Photoshop, Illustrator, CorelDrow</a></li>
+        <li><a>Adobe Premiere, After Effects</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container" id="codeexample">
+    <div class="containerheader">
+      <h2>Code Example</h2>
+      <pre>
+        <code>javascriptgit
+          function multiply(a, b){
+            return a * b;
+          }</code>
+        </pre>
+    </div>
+  </section>
+
+  <section class="container" id="aboutme">
+    <div class="containerheader">
+      <h2>About me</h2>
+    <p>My goal is to learn js, css and python to get a job. In the past,<br>
+      I worked as a graphic designer. Now I am changing my profession.</p>
+        </pre>
+    </div>
+  </section>
+
+  <section class="container" id="Education">
+    <div class="containerheader">
+      <h2>Education</h2>
+    <p>Abai Myrzakhmetov Kokshetau University</p>
+    </div>
+  </section>
+
+  <section class="container" id="myproject">
+    <div class="containerheader">
+      <h2>My project</h2>
+      <p><a class="link" href="https://github.com/alinaFedorovd/rsschool-cv">My CV</a></p>
+    </div>
+  </section>
+
+
+
+
 </body>
 
 </html>
