@@ -2,15 +2,17 @@ html {
     /*background-color: rgb(61, 58, 63); веде цвет меняет не удобно*/
     color: rgb(237, 225, 225);
     scroll-behavior: smooth; /*поведение прокрутки: гладкое;*/
-
 }
+
 body {
     margin: 0;
     display: flex; /* смешно выравняло в ряд*/
     flex-direction: column;/* флекс направл - столбец, уже не смешно делает*/
     justify-content: space-between; /* это ради футера что бы элем прилип к концу*/
 }
-
+.header {
+    background-color: rgb(5, 5, 5);     /* в контейнер хэдр выставляем дааный что бы в по центр а тут не действует это */
+}
 main{
     background-color: rgb(61, 58, 63);
 }
@@ -46,8 +48,6 @@ main{
 .nav-link:hover {
     color: #8d8d8d;
 }
-
-.header {}
 
 .foto {
     /* width: 27%;
@@ -136,17 +136,23 @@ p{
 
 .footer{
     height:100px;
-    color:#8d8d8d;
     background-color: rgb(123, 123, 123);
-    display: flex; /*нужно ли это?*/
-    justify-content: space-between;  /*нужно ли это?*/
 }
 .footercontent{
     width: 960px; 
     margin: 0 auto; 
+    display: flex; /*в ряд выравняла ссылки*/
 
 }
+
 .logo{
     height: 60px;
-    align-items: 
+}
+.linkfooter{
+    text-decoration: none;
+    color: #000000;
+}
+.linkmygit{
+    text-decoration: none;
+    color: #fff7f7;
 }
