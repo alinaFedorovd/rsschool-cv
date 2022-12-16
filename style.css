@@ -1,16 +1,22 @@
 html {
-    background-color: rgb(61, 58, 63);
-    color: rgb(227, 227, 227);
-    scroll-behavior: smooth;
+    /*background-color: rgb(61, 58, 63); веде цвет меняет не удобно*/
+    color: rgb(237, 225, 225);
+    scroll-behavior: smooth; /*поведение прокрутки: гладкое;*/
 
 }
 body {
     margin: 0;
+    display: flex; /* смешно выравняло в ряд*/
+    flex-direction: column;/* флекс направл - столбец, уже не смешно делает*/
+    justify-content: space-between; /* это ради футера что бы элем прилип к концу*/
 }
 
+main{
+    background-color: rgb(61, 58, 63);
+}
 .nav {
     /*border: 1px solid black;*/
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(138, 59, 59);
     padding-top: 1px;
     padding-right: 1px;
     padding-bottom: 2px;
@@ -101,8 +107,7 @@ body {
 
 .containerheader {
     width: 960px; 
-    margin: 0 auto; /*центрировать элемент внутри своего родителя, используйте margin: 0 auto;*/
-
+    margin: 0 auto; /*центри-вать элемент внутри своего родителя, использов margin: 0 auto;*/
 }
 
 
@@ -127,4 +132,21 @@ p{
 .link{
     text-decoration: none;
     color: inherit; /*нет цвета у ссылки*/
+}
+
+.footer{
+    height:100px;
+    color:#8d8d8d;
+    background-color: rgb(123, 123, 123);
+    display: flex; /*нужно ли это?*/
+    justify-content: space-between;  /*нужно ли это?*/
+}
+.footercontent{
+    width: 960px; 
+    margin: 0 auto; 
+
+}
+.logo{
+    height: 60px;
+    align-items: 
 }
