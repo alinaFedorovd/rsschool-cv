@@ -10,7 +10,11 @@ body {
     display: flex; /* смешно выравняло в ряд*/
     flex-direction: column;/* флекс направл - столбец, уже не смешно делает*/
     justify-content: space-between; /* это ради футера что бы элем прилип к концу*/
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+ 
 }
+
 .header {
     background-color: rgb(5, 5, 5);     /* в контейнер хэдр выставляем дааный что бы в по центр а тут не действует это */
 }
@@ -47,7 +51,7 @@ main{
 }
 
 .nav-link:hover {
-    color: #8d8d8d;
+    color: #00d254;
 }
 
 .foto {
@@ -60,19 +64,25 @@ main{
     padding-left: 0px;*/
     width: 200px;
     padding-top: 150px;
+    line-height: 5%;
 }
 
+.name_first{
+    font-weight:lighter;
+    color: #1a9a0f;
+     
+}
 .name {
    
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 150px;
-    font-size: 50px;
+    line-height: 90%;
+    font-size: 60px;
     font-weight: 50%;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: #ffffff;*/
-
 }
 
 .section {
@@ -106,9 +116,10 @@ main{
     border: 1px solid rgb(0, 255, 60)
 }
 
-.containerheader {
+.containerheader, .container_inbox {
     width: 960px; 
     margin: 0 auto; /*центри-вать элемент внутри своего родителя, использов margin: 0 auto;*/
+    letter-spacing: 1px;
 }
 
 
@@ -123,6 +134,8 @@ ul {
 
 h2 {
     padding-left: 40px;
+    font-weight: bold;
+    color: #00d254;
     
 }
 
@@ -137,7 +150,7 @@ p{
 
 .footer{
     height:100px;
-    background-color: rgb(123, 123, 123);
+    background-color: rgb(85, 85, 87);
 }
 .footercontent{
     width: 960px; 
@@ -151,9 +164,9 @@ p{
 }
 .linkfooter{
     text-decoration: none;
-    color: #000000;
 }
-.linkmygit{
+.link_mygit, .year {
     text-decoration: none;
-    color: #fff7f7;
+    color: #e9e9eb;
+    text-transform:uppercase;
 }
