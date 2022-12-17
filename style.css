@@ -1,23 +1,30 @@
 html {
     color: rgb(237, 225, 225);
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
     padding: 0;
-    display: flex; /* смешно выравняло в ряд*/
-    flex-direction: column;/* флекс направл - столбец, уже не смешно делает*/
-    justify-content: space-between; /* это ради футера что бы элем прилип к концу*/
+    display: flex;
+    /* смешно выравняло в ряд*/
+    flex-direction: column;
+    /* флекс направл - столбец, уже не смешно делает*/
+    justify-content: space-between;
+    /* это ради футера что бы элем прилип к концу*/
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
- }
-.header {
-    background-color: rgb(5, 5, 5);     /* в контейнер хэдр выставляем дааный что бы в по центр а тут не действует это */
 }
-main{
+
+.header {
+    background-color: rgb(5, 5, 5);
+    /* в контейнер хэдр выставляем дааный что бы в по центр а тут не действует это */
+}
+
+main {
     background-color: rgb(61, 58, 63);
 }
+
 .nav {
     padding-top: 1px;
     padding-right: 1px;
@@ -54,22 +61,22 @@ main{
     line-height: 5%;
 }
 
-.name_first{
-    font-weight:lighter;
+.name_first {
+    font-weight: lighter;
     color: #1a9a0f;
-     
+
 }
+
 .name {
-   
+
     display: inline-block;
     padding-top: 10px;
     padding-left: 150px;
     line-height: 90%;
     font-size: 60px;
-    font-weight: 50%;
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: #ffffff;*/
+    color: #ffffff;
 }
 
 .container {
@@ -78,55 +85,66 @@ main{
     margin: 0 auto;
 }
 
-.containerheader, .container_inbox {
-    width: 960px; 
-    margin: 0 auto; /*центри-вать элемент внутри своего родителя, использов margin: 0 auto;*/
+.containerheader,
+.container_inbox {
+    width: 960px;
+    margin: 0 auto;
+    /*центри-вать элемент внутри своего родителя, использов margin: 0 auto;*/
     letter-spacing: 1px;
 }
 
 li {
- list-style-type: none; /* Убираем маркеры */
- padding-left: 20px;
+    list-style-type: none;
+    /* Убираем маркеры */
+    padding-left: 20px;
 }
+
 ul {
- padding-left: 20px; /* Отступ слева*/
+    padding-left: 20px;
+    /* Отступ слева*/
 }
 
 h2 {
     padding-left: 40px;
     font-weight: bold;
     color: #00d254;
-    
+
 }
 
-p{
+p {
     padding-left: 80px;
 }
 
-.link{
+.link {
     text-decoration: none;
-    color: inherit; /*нет цвета у ссылки*/
+    color: inherit;
+    /*нет цвета у ссылки*/
 }
 
-.footer{
-    height:100px;
+.footer {
+    height: 100px;
     background-color: rgb(85, 85, 87);
 }
-.footercontent{
-    width: 960px; 
-    margin: 0 auto; 
-    display: flex; /*в ряд выравняла ссылки*/
+
+.footercontent {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    /*в ряд выравняла ссылки*/
 
 }
 
-.logo{
+.logo {
     height: 60px;
 }
-.linkfooter{
+
+.linkfooter {
     text-decoration: none;
 }
-.link_mygit, .year {
+
+.link_mygit,
+.year {
     text-decoration: none;
     color: #e9e9eb;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
