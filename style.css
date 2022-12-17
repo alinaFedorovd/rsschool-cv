@@ -6,6 +6,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
     display: flex; /* смешно выравняло в ряд*/
     flex-direction: column;/* флекс направл - столбец, уже не смешно делает*/
     justify-content: space-between; /* это ради футера что бы элем прилип к концу*/
