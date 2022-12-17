@@ -7,18 +7,14 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    /* смешно выравняло в ряд*/
     flex-direction: column;
-    /* флекс направл - столбец, уже не смешно делает*/
     justify-content: space-between;
-    /* это ради футера что бы элем прилип к концу*/
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
 }
 
 .header {
     background-color: rgb(5, 5, 5);
-    /* в контейнер хэдр выставляем дааный что бы в по центр а тут не действует это */
 }
 
 main {
@@ -89,19 +85,15 @@ main {
 .container_inbox {
     width: 960px;
     margin: 0 auto;
-    /*центри-вать элемент внутри своего родителя, использов margin: 0 auto;*/
-    letter-spacing: 1px;
 }
 
 li {
     list-style-type: none;
-    /* Убираем маркеры */
     padding-left: 20px;
 }
 
 ul {
     padding-left: 20px;
-    /* Отступ слева*/
 }
 
 h2 {
@@ -118,7 +110,6 @@ p {
 .link {
     text-decoration: none;
     color: inherit;
-    /*нет цвета у ссылки*/
 }
 
 .footer {
@@ -130,8 +121,6 @@ p {
     width: 960px;
     margin: 0 auto;
     display: flex;
-    /*в ряд выравняла ссылки*/
-
 }
 
 .logo {
