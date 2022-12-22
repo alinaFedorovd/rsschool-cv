@@ -14,6 +14,9 @@ body {
 }
 
 .header {
+    position: fixed;/*этоя применила позиционирование*/
+    width: 100vmax; /*это для того что бы шапка по центру стр была*/
+    
     background-color: rgb(5, 5, 5);
 }
 
