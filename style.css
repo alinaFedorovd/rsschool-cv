@@ -14,6 +14,9 @@ body {
 }
 
 .header {
+    position: fixed;/*этоя применила позиционирование*/
+    width: 100vmax; /*это для того что бы шапка по центру стр была*/
+    
     background-color: rgb(5, 5, 5);
 }
 
@@ -77,6 +80,7 @@ main {
 
 .container {
     max-width: 960px;
+    padding-top: 80px; /* решена проблема нависания*/
     height: 100vh;
     margin: 0 auto;
 }
