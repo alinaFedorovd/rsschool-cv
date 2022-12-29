@@ -163,3 +163,12 @@ p {
     color: #e9e9eb;
     text-transform: uppercase;
 }
+.hart{
+    position: fixed;
+    /* z-index: 999; */
+    left: 1618px;
+    top: 746px;
+}
+.green-hart{
+    width: 50px;
+}
