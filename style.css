@@ -3,8 +3,13 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-  background-color: black;  
+  background-color: #0F0F10;  
   color: aliceblue;
+  
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 body {
@@ -13,7 +18,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-size: 14px;
+    font-family: Nunito;
+}
 
+h2 {
+    font-family: 'Gelasio', serif;
+    color: #8fdcca;   
 }
 .cont_head_footer {
     width: 860px;
@@ -28,16 +39,19 @@ header{
 }
 h1{
     padding-left: 452px;
+    margin-bottom: 0px;
+    font-family: 'Gelasio', serif;
+    color: black; 
 }
 .nav_ul {
     display: flex;
     list-style: none;
-    padding-left: 452px;
+    padding-left: 440px;
+    font-size: 10px;
 }
 
 .header_block {
-    /* padding-left:500px; */
-    background-color: bisque;
+
 }
 
 main {
@@ -54,7 +68,15 @@ nav li {
     position: relative;
     z-index: 60;
     /* padding-top: -600px; */
-    top:-88px;
+    top:-65px;
+}
+.about_me {
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 60;
+    top:-70px;
+   
 }
 
 .second_artcl {
@@ -73,4 +95,5 @@ footer {
 }
 footer a {
     padding-left: 20px;
+    color: black;
 }
