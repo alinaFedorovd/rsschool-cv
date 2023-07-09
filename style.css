@@ -1,0 +1,98 @@
+html {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  background-color: #0F0F10;  
+  color: aliceblue;
+  
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 14px;
+    font-family: Nunito;
+}
+
+h2 {
+    font-family: 'Gelasio', serif;
+    color: #8fdcca;
+    margin-bottom: 0px;   
+}
+.cont_head_footer {
+    width: 860px;
+    margin: auto;
+}
+
+header{ 
+    flex: 0 0 auto;
+
+}
+h1{
+    padding-left: 452px;
+    margin-bottom: 0px;
+    font-family: 'Gelasio', serif;
+    color: black; 
+}
+.nav_ul {
+    display: flex;
+    list-style: none;
+    padding-left: 440px;
+    font-size: 10px;
+}
+
+.header_block {
+
+}
+
+main {
+    width: 860px;
+    margin: auto;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+nav li {
+    padding-left: 10px;
+}
+.avatar{
+    position: relative;
+    z-index: 60;
+    /* padding-top: -600px; */
+    top:-65px;
+}
+.about_me {
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 60;
+    top:-70px;
+   
+}
+
+.second_artcl {
+    padding-left: 100px;
+
+}
+
+footer {
+    /* width: 100%; */
+     flex: 0 0 auto;
+}
+
+.block {
+    background-color:#CBE0DB;
+    color: black;
+}
+footer a {
+    padding-left: 20px;
+    color: black;
+}
