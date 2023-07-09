@@ -24,16 +24,15 @@ body {
 
 h2 {
     font-family: 'Gelasio', serif;
-    color: #8fdcca;   
+    color: #8fdcca;
+    margin-bottom: 0px;   
 }
 .cont_head_footer {
     width: 860px;
     margin: auto;
-    /* background-color: red; */
 }
 
 header{ 
-    /* display: flex; */
     flex: 0 0 auto;
 
 }
